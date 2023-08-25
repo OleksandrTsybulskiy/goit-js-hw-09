@@ -22,6 +22,8 @@ function handlerSubmit(evt) {
     createPromise(i, delay);
     delay += step;
   }
+
+  elements.form.reset() 
 };
 
 function createPromise(position, delay) {
